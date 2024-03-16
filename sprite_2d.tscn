@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdhkbt80tx3an"]
+
+[ext_resource type="Texture2D" uid="uid://2r0foxyyogkq" path="res://police.png" id="1_lw7wi"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_t4rht"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(590, 301)
+scale = Vector2(0.46888, 0.46888)
+texture = ExtResource("1_lw7wi")
+script = ExtResource("2_t4rht")
